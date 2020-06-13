@@ -1,0 +1,14 @@
+Add the Browse tool to the workflow 
+Add the selcet tool to the workflow 
+In the configuration panel, update the type for each of the fields. 
+In this case both "revenue" & "cost" should be double since there are decimals 
+
+Connect the formula tool to the workflow 
+In the Configuration Panel create a new field by adding "Profit"
+Choose Type (double for numeric) 
+To create the formula for "Profit" 
+Select Revenue from the list of exisiting fields under the variables tab
+Then subtract Cost by clicking on the variable under exisiting fields 
+
+Run your workflow
+Click on the green ancour at the end of the formula tool to show the new variable 
