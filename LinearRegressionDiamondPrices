@@ -1,0 +1,11 @@
+#Score Tool
+#Score Tool is used to apply the results of a predictive model to a dataset
+#Connect O from Linear Regression Tool to M of the Score Tool
+#Connect the Data to D of the Score Tool
+#Resulting dataset will include new output variable
+#This represents the Y in the y=mx+b equation
+#In the Configuration window of the Score tool, you can name the new field
+
+#Formula Tool
+#Attach formula tool to the input dataset
+#from the formula configuration window,
