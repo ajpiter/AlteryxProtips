@@ -1,0 +1,20 @@
+#These are my notes from Udacity's Nano Business Analyst NanoDegree, Project 3, Lession 1 Understanding Data. 
+
+**Input a File In Alteryx & subset the data**
+Drop Input Data onto Workflow
+Run the workflow to see how many records are in the file: Go to the results window & click on messages icon 
+Drop Filter Tool onto Workflow
+Filter in the configuration panel, click on the T on the filter icon to see a list of when the filter is True. 
+Drop Summarize onto Workflow & connect to filter True 
+In configuration panel select variable & select groupby from dropdown menu
+Add the same variable & select count from the dropdown menu 
+run the workflow 
+Drop the sort tool onto the workflow 
+in the configuration panel select the variable & how to order from the dropdown menu
+run the workflow
+
+
+
+Recognize Strucural Issues
+
+Optimize Field Types 
