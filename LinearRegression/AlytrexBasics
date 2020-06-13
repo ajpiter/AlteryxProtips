@@ -1,0 +1,17 @@
+#InputData by adding InputData to workflow
+#Select the Sheet
+
+#From Predictive Tools Menu, drag a Linear Regression to the workflow
+#In the Configuration panel setup the linear regression
+#model name, can be anything you want.
+#select the target variable you are looking to predict from the dropdown menu. Linear Regressions have to have a numeric target variable so only number fields will be shown in the list.
+#select the variables to use in your model to predict your target variable
+
+#in the workflow right click on the linear regression and click add reports. This will produce a report that lets us access how good the outcome is.
+
+#Run the Model by clicking the Green Arrow
+
+Click the Report button in the workflow to see the report on the linear regression model
+#Coefficients table has the values that correspond with the b0, b1, b2, b3... coefficients
+#The lower the P value the higher the probability the a relationship exists between the predictor variable and target variable. Alytrex ranks P-values with stars, the more starts the greater the statistical significance.
+#R^2 the variation explained by predictor variable. The higher the r^2 the stronger the model
