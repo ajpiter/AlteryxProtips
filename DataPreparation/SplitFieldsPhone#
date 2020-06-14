@@ -1,0 +1,33 @@
+Parsing Column Data in Alteryx 
+
+Add the input data tool to the workflow 
+In the configuration panel, either type or paste data into the first field 
+
+Add the text to column tool to the workflow 
+In the configuration panel, set the deliminator (most often commas but can be anything) 
+In the configuration panel, choose how many columns to split the data into 
+In the configuration panel, the root name is the begining of the column name. All output columns will be name "root"1, "root"2...
+
+***
+
+Phone Numbers Example, List of Phone Numbers in Excel formated in a single column 
+(123) 456-7890
+
+Add the input data tool to the workflow 
+In the configuration panel, paste data into the first field 
+
+Add the text to column tool to the workflow 
+In the configuration panel, set the deliminator to )/, 
+In the configuration panel, split the data to 3 columns 
+In the configuration panel, the root name is Phone 
+The output in the results pane should be (123 456-7890 in 2 columns 
+
+Add the Formula tool to the workflow
+In the configuration panel, choose the column with "("
+In the configuration panel, select "Replace" from the dropdown menu 
+In the configuration panel write the following formula 
+ReplaceChar([ColumnName], valuetoreplace, replacementvalue) 
+ReplaceChar([Phone1], "(", "") 
+In Alteryx "" equals nothing, you can also use '' or ""
+The output in the results pane should be 123 456-7890 in 2 columns 
+
