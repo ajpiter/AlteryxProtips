@@ -1,0 +1,33 @@
+Parsing Column Data in Alteryx 
+
+Add the input data tool to the workflow 
+In the configuration panel, either type or paste data into the first field 
+
+Add the text to column tool to the workflow 
+In the configuration panel, set the deliminator (most often commas but can be anything) 
+In the configuration panel, choose how many columns to split the data into 
+In the configuration panel, the root name is the begining of the column name. All output columns will be name "root"1, "root"2...
+
+***
+
+Address Example, List of Addresses in Excel formated in a single column 
+1234 Main St, Washington, DC 20001-1234 
+
+Add the input data tool to the workflow 
+In the configuration panel, paste data into the first field 
+
+Add the text to column tool to the workflow 
+In the configuration panel, set the deliminator to commas 
+In the configuration panel, split the data to 3 columns 
+In the configuration panel, the root name is Address 
+
+Add a seconf text to column tool to the workflow
+In the configuration panel, set the deliminator to a space & a -
+In the configuration panel, split the data to 3 columns 
+In the configuration panel, the root name is State 
+
+Add a select tool to the workflow 
+Remove the fields you no longer need, address and address3
+Rename the exisiting fields, Street, City, State, Zip, Zip4
+
+***
