@@ -1,1 +1,14 @@
+This was a project for Udacity's Data Analyst NanoDegree. 
+Below is a description of each of the files included in the github folder. 
 
+The linear regression model was calculated in Alteryx using a customer list as training data. 
+Workflow Image: "Customer Mailing Alteryx Workflow Image.JPG" 
+Statistical Report of the Model: "Customer mailing Alteryx Report.pdf"
+Alteryx File: "Customer Mailing Alteryx Model.yxmd
+
+I then took the model and applied it to a potential mailing list in Excel. 
+Based on the calculations, I determined that the higherst ROI was by mailing the full list.
+Excel File: "Customer Mailing List Data Munging.xlsx"
+
+The final recommendation 
+Final Report: "Customer Mailing Report Recommendation"
